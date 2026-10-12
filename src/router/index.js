@@ -12,6 +12,14 @@ const routes = [
   {
     path: '/contact',
     component: () => import('../views/Contact.vue')
+  },
+  {
+    path: '/grade',
+    component: () => import('../views/Grade.vue')
+  },
+  {
+    path: '/golds',
+    component: () => import('../views/Api_golds.vue')
   }
 ]
 
