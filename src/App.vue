@@ -56,7 +56,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                ราคาทอง
+                API
               </a>
 
               <ul class="dropdown-menu dropdown-menu-end">
@@ -65,6 +65,17 @@
                     ราคาทองวันนี้
                   </RouterLink>
                 </li>
+                <li>
+                  <RouterLink class="dropdown-item" to="/product_api">
+                    สินค้า
+                  </RouterLink>
+                </li>
+                <RouterLink class="dropdown-item" to="/product_table">
+                    ตารางสินค้า
+                  </RouterLink>
+                  <RouterLink class="dropdown-item" to="/user">
+                    แสดงผู้ใช้
+                  </RouterLink>
               </ul>
             </li>
           </ul>
